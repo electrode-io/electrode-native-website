@@ -36,7 +36,9 @@ function Help(props) {
           <header className="postHeader">
             <h1>Need help?</h1>
           </header>
-          <p>This project is maintained by a dedicated group of people.</p>
+          <p>Electrode is maintained by the <a href="https://github.com/orgs/electrode-io/people">core team</a> with
+            help of our contributors.</p>
+          <p>Open Sourced Under Apache, Built with ♡ by @WalmartLabs</p>
           <GridBlock contents={supportLinks} layout="threeColumn" />
         </div>
       </Container>

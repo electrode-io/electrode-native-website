@@ -3,6 +3,14 @@
 
 // List of projects/orgs using your project for the users page.
 const users = [
+  {
+    caption: 'Walmart',
+    // You will need to prepend the image path with your baseUrl
+    // if it is not '/', like: '/test-site/img/image.jpg'.
+    image: '/img/walmart_app_icon.png',
+    infoLink: 'https://www.walmart.com',
+    pinned: true,
+  },
 ];
 
 const siteConfig = {
@@ -23,17 +31,19 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
+    {href: 'https://native.electrode.io/', label: 'Docs'},
     {page: 'help', label: 'Help'},
-    {blog: false, label: 'Blog'},
+    {href: 'https://medium.com/walmartlabs', label: 'Blog'},
+    {href: 'https://github.com/electrode-io/electrode-native', label: 'GitHub'},
   ],
 
   // If you have users set above, you add it here:
-  users,
+  // users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/favicon.ico',
-  footerIcon: 'img/favicon.ico',
-  favicon: 'img/favicon.ico',
+  headerIcon: 'img/ern_logo_80.png',
+  footerIcon: 'img/ern_logo_80.png',
+  favicon: 'img/favicon-64.png',
 
   /* Colors for website */
   colors: {
@@ -72,8 +82,9 @@ const siteConfig = {
   cleanUrl: true,
 
   // Open Graph and Twitter card images.
-  ogImage: 'img/undraw_online.svg',
-  twitterImage: 'img/undraw_tweetstorm.svg',
+  //ogImage: 'img/undraw_online.svg',
+  //twitterImage: 'img/undraw_tweetstorm.svg',
+  twitterUsername: 'electrode_io',
 
   // For sites with a sizable amount of content, set collapsible to true.
   // Expand/collapse the links and subcategories under categories.

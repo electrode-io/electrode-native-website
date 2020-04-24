@@ -14,3 +14,72 @@
 
 @media only screen and (min-width: 1500px) {
 }
+
+.mainContainer a {
+  color: #f47c24;
+  text-decoration: none;
+}
+
+.mainContainer a:hover {
+  color: #f47c24;
+  text-decoration: none;
+}
+
+.fixedHeaderContainer {
+  background: #183055;
+}
+
+.homeContainer {
+  background: $primaryColor;
+}
+
+.cloudDivider {
+  background: $primaryColor;
+  height: 84px;
+}
+.cloudDivider div {
+  background: url("../img/ern_clouds.svg") repeat-x;
+  height: 100%;
+}
+
+.projectTitle {
+  color: #FFFFFF;
+}
+
+.homeContainer img {
+  max-height: 150px;
+  margin: 30px;
+}
+
+.homeContainer .button {
+  border: 1px solid #fff;
+  border-radius: 3px;
+  color: #fff;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.2em;
+  padding: 10px;
+  text-decoration: none !important;
+  text-transform: uppercase;
+  transition: background 0.3s, color 0.3s;
+}
+
+.homeContainer .button:hover {
+  background: #fff;
+  color: $primaryColor;
+}
+
+.tabs {
+  border-left: 1px solid #cfcfcf;
+  border-right: 1px solid #cfcfcf;
+}
+.tab-content {
+  max-height: 350px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.nav-tabs {
+  border-bottom: none;
+}
