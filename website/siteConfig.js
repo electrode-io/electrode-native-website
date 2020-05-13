@@ -22,8 +22,6 @@ const siteConfig = {
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
 
-  cname: 'www.electrodenative.dev',
-
   // Used for publishing and more
   projectName: 'electrode-native-website',
   organizationName: 'electrode-io',
