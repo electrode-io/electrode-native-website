@@ -29,22 +29,19 @@ class Footer extends React.Component {
             )}
           </a>
           <div>
-            <h5>Docs</h5>
-            <a href={this.docUrl('doc1.html', this.props.language)}>
+            <h5>Docs (coming soon)</h5>
+            <a href="https://native.electrode.io/">
               Getting Started
             </a>
-            <a href={this.docUrl('doc2.html', this.props.language)}>
+            <a href="https://native.electrode.io/">
               Guides
             </a>
-            <a href={this.docUrl('doc3.html', this.props.language)}>
+            <a href="https://native.electrode.io/">
               API Reference
             </a>
           </div>
           <div>
             <h5>Community</h5>
-            <a href={this.pageUrl('users.html', this.props.language)}>
-              User Showcase
-            </a>
             <a
               href="https://stackoverflow.com/questions/tagged/electrode-native"
               target="_blank"
@@ -61,6 +58,9 @@ class Footer extends React.Component {
           </div>
           <div>
             <h5>More</h5>
+            <a href="https://www.electrode.io">
+              Electrode Web
+            </a>
             <a href={`${this.props.config.baseUrl}blog`}>Blog</a>
             <a href="https://github.com/electrode-io/electrode-native">GitHub</a>
             <a
